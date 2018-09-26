@@ -1,5 +1,5 @@
 """
-@author: David s
+@author: David s, Gabriela A
 
 """
 import pygame,sys
