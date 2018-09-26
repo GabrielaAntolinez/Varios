@@ -1,2 +1,2 @@
-# Personaje-disparando
-Se realiza ejemplo sencillo realizando un disparo, desarrollado en python-pygame
+# Adapter- Personaje disparando
+Se adapta un ejemplo sencillo de un disparo para que se vuelva ataque con cuchillo.
