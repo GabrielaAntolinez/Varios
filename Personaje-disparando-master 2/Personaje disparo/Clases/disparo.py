@@ -29,7 +29,8 @@ class Cuchillo(pygame.sprite.Sprite):
     def __init__(self,posX,posY):
         pygame.sprite.Sprite.__init__(self)
         self.imagenCuchillo = pygame.image.load("imagenes/cuchillo.png")
-        self.imagenCuchillo = pygame.transform.flip(self.imagenCuchillo, True, False)
+        self.imagenCuchillo = pygame.transform.scale(self.imagenCuchillo, (60, 60))
+        self.imagenCuchillo = pygame.transform.rotate(self.imagenCuchillo, -45)
         self.rect = self.imagenCuchillo.get_rect()
         self.velocidadDisparo = 20
         self.rect.top=posY
